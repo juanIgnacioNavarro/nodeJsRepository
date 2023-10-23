@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "title": "servilletas",
+    "description": "hola",
+    "price": 600,
+    "thumbnail": "url de las servilletas",
+    "code": 217156,
+    "stock": 50
+  }
+]

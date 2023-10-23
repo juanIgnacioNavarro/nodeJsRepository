@@ -27,6 +27,12 @@ class ProductList {
     }
 
     addProduct(dataProduct) {
+        if (!dataProduct.title || !dataProduct.price || !dataProduct.description) {
+            throw new Error('Faltan campos obligatorios. Asegúrate de proporcionar name, price y description.');
+        }
+        if (typeof dataProduct.price !== 'number' || dataProduct.price <= 0) {
+            throw new Error('El precio debe ser un número positivo.');
+        }
         const idProduct = ProductList.getNewIdProduct();
         const product = new ProductManager({ code: idProduct, ...dataProduct });
         this.products.push(product);
