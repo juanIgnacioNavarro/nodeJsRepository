@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "title": "Servilletas",
+      "description": "Servilletas de papel blancas",
+      "price": 600,
+      "thumbnail": "url_de_las_servilletas_1",
+      "code": 217156,
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "title": "Platos",
+      "description": "Platos desechables para fiestas",
+      "price": 800,
+      "thumbnail": "url_de_los_platos_1",
+      "code": 217157,
+      "stock": 75
+    },
+    {
+      "id": 3,
+      "title": "Vasos",
+      "description": "Vasos de plástico transparentes",
+      "price": 500,
+      "thumbnail": "url_de_los_vasos_1",
+      "code": 217158,
+      "stock": 100
+    },
+    {
+      "id": 4,
+      "title": "Cubiertos",
+      "description": "Juego de cubiertos desechables",
+      "price": 700,
+      "thumbnail": "url_de_los_cubiertos_1",
+      "code": 217159,
+      "stock": 60
+    },
+    {
+      "id": 5,
+      "title": "Manteles",
+      "description": "Manteles de papel decorativos",
+      "price": 900,
+      "thumbnail": "url_de_los_manteles_1",
+      "code": 217160,
+      "stock": 40
+    },
+    {
+      "id": 6,
+      "title": "Decoraciones",
+      "description": "Decoraciones para fiestas",
+      "price": 400,
+      "thumbnail": "url_de_las_decoraciones_1",
+      "code": 217161,
+      "stock": 80
+    },
+    {
+      "id": 7,
+      "title": "Globos",
+      "description": "Globos de colores para decorar",
+      "price": 300,
+      "thumbnail": "url_de_los_globos_1",
+      "code": 217162,
+      "stock": 120
+    },
+    {
+      "id": 8,
+      "title": "Confeti",
+      "description": "Confeti de colores para lanzar",
+      "price": 200,
+      "thumbnail": "url_del_confeti_1",
+      "code": 217163,
+      "stock": 90
+    },
+    {
+      "id": 9,
+      "title": "Luces",
+      "description": "Luces decorativas para fiestas",
+      "price": 1000,
+      "thumbnail": "url_de_las_luces_1",
+      "code": 217164,
+      "stock": 30
+    },
+    {
+      "id": 10,
+      "title": "Sombreros",
+      "description": "Sombreros de fiesta",
+      "price": 350,
+      "thumbnail": "url_de_los_sombreros_1",
+      "code": 217165,
+      "stock": 70
+    }
+  ]
+  
