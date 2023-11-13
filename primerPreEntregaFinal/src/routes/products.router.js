@@ -5,7 +5,7 @@ const productsRouter = Router()
 productsRouter.get('/', async (req, res) => {
     try {
         const limit = req.query;
-        const products = productManager.getProducts()
+        const products = await productManager.getProducts()
         if (limit) {
             const productLimit = products.slice(0, limit)
             return res.json(productLimit)
@@ -16,10 +16,10 @@ productsRouter.get('/', async (req, res) => {
     }
 })
 
-productsRouter.get('pid', async (req, res) => {
+productsRouter.get('/:pid', async (req, res) =>  {
     try {
         const pid = req.params
-        const products = productManager.getProductsById(pid)
+        const products = await productManager.getProductsById(pid)
         res.json(products)
     } catch (error) {
         res.send('Error al intentar encontrar el producto con id ${pid}')

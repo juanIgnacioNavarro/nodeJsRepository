@@ -30,7 +30,7 @@ export class ProductManager {
     }
 
     getProductsById = async (id) => {
-        const response = this.getProducts()
+        const response = await this.getProducts()
 
         const product = response.find(product => product.id === id)
 
