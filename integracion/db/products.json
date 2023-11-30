@@ -1,0 +1,13 @@
+[
+    {
+      "id": "5e2a4da5-a2ee-4c72-b0a7-3e03334bca1b",
+      "title": "Fuente de laboratorio Gadnic",
+      "description": "fuente de alimientacion 0-30v y 0-5A",
+      "code": "ACB1",
+      "price": 5500,
+      "status": true,
+      "category": "electronica",
+      "thumbnail": "sin imagen",
+      "stock": 10
+    }
+  ]
